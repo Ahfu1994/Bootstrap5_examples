@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container my-2">
+        <!-- create flexbox (default x) -->
+        <div class="d-flex bg-info">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+        <br>
+        <!-- direction -->
+        <div class="d-flex flex-row bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+        <!--flex column -->
+        <br>
+        <div class="d-flex flex-column bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+        <!-- row reverse -->
+        <br>
+        <div class="d-flex flex-row-reverse bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+
+        <!-- column reverse -->
+        <br>
+        <div class="d-flex flex-column-reverse bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+
+        <!-- horizontal alignment -->
+        <br>
+        <div class="d-flex justify-content-center bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+
+        <br>
+        <div class="d-flex justify-content-end bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+
+        <br>
+        <div class="d-flex justify-content-start bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-between bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-around bg-info ">
+            <div class="p-4 bg-warning text-dark">item1</div>
+            <div class="p-4 bg-warning text-dark">item2</div>
+            <div class="p-4 bg-warning text-dark">item3</div>
+        </div>
+
+        <!-- vertical alignment -->
+        <br>
+        <div class="d-flex align-items-start bg-danger " style="height: 200px;">
+            <div class="p-4 bg-success text-dark">item1</div>
+            <div class="p-4 bg-success text-dark">item2</div>
+            <div class="p-4 bg-success text-dark">item3</div>
+        </div>
+        <br>
+        <div class="d-flex align-items-center bg-danger " style="height: 200px;">
+            <div class="p-4 bg-success text-dark">item1</div>
+            <div class="p-4 bg-success text-dark">item2</div>
+            <div class="p-4 bg-success text-dark">item3</div>
+        </div>
+        <br>
+        <div class="d-flex align-items-end bg-danger " style="height: 200px;">
+            <div class="p-4 bg-success text-dark">item1</div>
+            <div class="p-4 bg-success text-dark">item2</div>
+            <div class="p-4 bg-success text-dark">item3</div>
+        </div>
+        <br>
+        <div class="d-flex flex-column align-items-stretch bg-danger " style="height: 200px;">
+            <div class="p-4 bg-success text-dark">item1</div>
+            <div class="p-4 bg-success text-dark">item2</div>
+            <div class="p-4 bg-success text-dark">item3</div>
+        </div>
+
+        <br>
+        <div class="d-flex flex-row align-items-stretch bg-danger " style="height: 200px;">
+            <div class="p-4 bg-success text-dark">item1</div>
+            <div class="p-4 bg-success text-dark">item2</div>
+            <div class="p-4 bg-success text-dark">item3</div>
+        </div>
+
+        <br>
+        <div class="d-flex align-items-baseline bg-danger " style="height: 200px;">
+            <div class="p-4 bg-success text-dark">item1</div>
+            <div class="p-4 bg-success text-dark">item2</div>
+            <div class="p-4 bg-success text-dark">item3</div>
+        </div>
+        <!-- align self item -->
+        <br>
+        <div class="d-flex bg-danger " style="height: 200px;">
+            <div class="p-4 bg-success text-dark align-self-start">start</div>
+            <div class="p-4 bg-success text-dark align-self-center">center</div>
+            <div class="p-4 bg-success text-dark align-self-end">end</div>
+            <div class="p-4 bg-success text-dark align-self-baseline">baseline</div>
+            <div class="p-4 bg-success text-dark align-self-stretch">stretch</div>
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>

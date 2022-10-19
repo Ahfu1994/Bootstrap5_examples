@@ -1,0 +1,13 @@
+.link {
+    background-color: green;
+    margin-left: 50%;
+}
+
+.link a {
+    color: blue;
+    margin-left: 50;
+}
+
+.link a:hover {
+    color: red;
+}
